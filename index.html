@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="asset/note.png" type="image/png">
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="https://kit.fontawesome.com/abcbaa0e15.js" crossorigin="anonymous"></script>
+    <title>NoteApp</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav_logo">
+            <img src="asset/note.png" alt="note icon">
+            <h1>Notes</h1>
+        </div>
+        <div class="nav_btn">
+            <div class="note__colors">
+                <button style="background-color: var(--green); --i: 4;" class="note__color"></button>
+                <button style="background-color: var(--red); --i: 2;" class="note__color"></button>  
+                <button style="background-color: var(--blue); --i: 2;" class="note__color"></button>  
+                <button style="background-color: var(--black); color: #fff ; --i: 1;" class="note__color"></button>    
+            </div>
+            <button class="add__note">
+                <i class="fa-solid fa-plus fa-2xl"></i>
+            </button>
+        </div>
+    </nav>
+    <main >        
+        <div class="card_container">
+            <div class="card card_template">
+                <i class="fas fa-plus" style="font-size: 30px;"></i>
+                add card
+            </div>
+        </div>
+    </main>
+    <script src="Js/script.js"></script>
+
+</body>
+</html>
