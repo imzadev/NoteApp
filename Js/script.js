@@ -104,7 +104,7 @@ function addTasktoArray(taskText ,card_date ,card_background ,card_color) {
         complet: false,
     }
     //push task to array tasks
-    arrayOfTasks.push(task);
+    arrayOfTasks.unshift(task);
     //add task to page
     addElementsToPagesFrom(arrayOfTasks);
     //add task to local storage
